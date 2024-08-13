@@ -9,12 +9,12 @@ public class TiposVariaveis {
         System.out.print("What is the maximum number for a byte variable?: ");
 		number = leia.nextInt();
         
-        if(number>127){
+        if(number>127){System.out.println("This number represents at least one short.");
         }else if (number<-128) {  
         System.out.println("This number represents at least one short.");}
-        else {System.out.println("This number represents at byte.");
+        else {System.out.println("This number represents a byte variable.");
              }
-             
+          
         
     }
 }
